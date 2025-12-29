@@ -5,7 +5,7 @@ from scipy.stats import norm
 
 # === Load Excel File ===
 # Replace 'data.xlsx' with your actual file name
-df = pd.read_excel(R"C:\Users\maeve\Downloads\EA1RevenueProb.xlsx")
+df = pd.read_excel(R"C:\Users\maeve\Downloads\EA3RevenueProb.xlsx")
 
 # Ensure the columns exist
 df.columns = df.columns.str.strip().str.lower()
@@ -45,3 +45,4 @@ plt.legend()
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.show()
+
